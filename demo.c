@@ -8,7 +8,7 @@ int main()
     printf("Enter the name of the student:");
     scanf("%[^\n]",name);
     printf("\nRoll Number: ");
-    scanf("%d",rollno);
+    scanf("%d",&rollno);
     printf("\nEnter Marks in 5 Subjects:\n");
     scanf("%f%f%f%f%f", &msub1, &msub2, &msub3, &msub4, &msub5);
     msum=msub1+msub2+msub3+msub4+msub5;
