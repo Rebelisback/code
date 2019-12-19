@@ -16,4 +16,5 @@ int main()
     printf("\nName of Student: %s",name);
     printf("\nRoll Number: %d",rollno);
     printf("\nPercentage Score Secured: %2.2f%c",score,'%');
+    getch();
 }
